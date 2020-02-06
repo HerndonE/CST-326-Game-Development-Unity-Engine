@@ -30,9 +30,58 @@ public class BallDestroyPlayerA : MonoBehaviour
             //Debug.Log("Player B won");
             score = score + 1;
             text.text = score.ToString(" ") + score;
-
         }
+
+        changeColor();
       
+    }
+
+    void changeColor()
+    {
+        if (score == 1)
+        {
+            text.color = new Color32(255, 255, 255, 200);
+        }
+        if (score == 2)
+        {
+            text.color = new Color32(255, 230, 230, 200);
+        }
+        if (score == 3)
+        {
+            text.color = new Color32(255, 204, 204, 200);
+        }
+        if (score == 4)
+        {
+            text.color = new Color32(255, 179, 179, 200);
+        }
+        if (score == 5)
+        {
+            text.color = new Color32(255, 153, 153, 200);
+        }
+        if (score == 6)
+        {
+            text.color = new Color32(255, 128, 128, 200);
+        }
+        if (score == 7)
+        {
+            text.color = new Color32(255, 102, 102, 200);
+        }
+        if (score == 8)
+        {
+            text.color = new Color32(255, 77, 77, 200);
+        }
+        if (score == 9)
+        {
+            text.color = new Color32(255, 51, 51, 200);
+        }
+        if (score == 10)
+        {
+            text.color = new Color32(255, 41, 41, 200);
+        }
+        if (score == 11)
+        {
+            text.color = new Color32(255, 0, 0, 200);
+        }
     }
 
 }

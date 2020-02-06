@@ -8,6 +8,8 @@ TagManager:
   - player
   - ScoreBoundary
   - ScoreBoundary1
+  - BigPaddle
+  - SmallPaddle
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ public class PaddleHit : MonoBehaviour
 {
     public string objectName = "player";
     public static float increaseSpeed = 100.0f;
+    public AudioClip otherClip;
     private void OnCollisionEnter(Collision col)
     {
         {
@@ -15,6 +16,9 @@ public class PaddleHit : MonoBehaviour
                 Debug.Log("Ball Hit");
                 increaseSpeed+=BallMovement.speed;
                 Debug.Log(increaseSpeed);
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
 
         }

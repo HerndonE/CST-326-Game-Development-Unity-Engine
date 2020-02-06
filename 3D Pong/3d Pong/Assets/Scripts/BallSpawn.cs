@@ -18,9 +18,10 @@ public class BallSpawn : MonoBehaviour
     public BallSpawns ballSpawn;
     public static float score = 0;        // The player's score.
     public Text Wintext;
+    public AudioClip otherClip;
     // Start is called before the first frame update
 
- 
+
     void Awake()
     {
         Startingball = Instantiate(Startingball, transform.position, transform.rotation);
@@ -47,6 +48,9 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 spawn = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
             }
 
@@ -60,6 +64,9 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 ballSpawn.spawn2 = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
         }
 
@@ -73,6 +80,9 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 ballSpawn.spawn3 = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
         }
 
@@ -86,6 +96,9 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 ballSpawn.spawn4 = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
         }
 
@@ -99,6 +112,9 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 ballSpawn.spawn5 = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
         }
 
@@ -112,6 +128,9 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 ballSpawn.spawn6 = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
         }
 
@@ -125,6 +144,9 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 ballSpawn.spawn7 = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
         }
 
@@ -138,6 +160,9 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 ballSpawn.spawn8 = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
         }
 
@@ -151,6 +176,9 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 ballSpawn.spawn9 = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
         }
 
@@ -164,12 +192,16 @@ public class BallSpawn : MonoBehaviour
                 PlayerA.transform.position = new Vector3(9, .32f, 0);
                 PlayerB.transform.position = new Vector3(-9, .32f, 0);
                 ballSpawn.spawn10 = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = otherClip;
+                audio.Play();
             }
         }
 
         if(ballSpawn.ball11 == null)
         {
             Wintext.gameObject.SetActive(true);
+ 
             if (BallDestroyPlayerA.score > BallDestroyPlayerB.score)
             {
                 Wintext.text = score.ToString("Player B Won");
