@@ -280,12 +280,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e6568559d6661b4eba05e67f1401a83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filename: Test
+  filename: NewLevel
   Brick: {fileID: 6044276167976540091, guid: 4789c92f63d12064ea4d0533ae04576f, type: 3}
   Rock: {fileID: 2339807799314650475, guid: 33fa972321d3f3347a6c0ffec2fb38b3, type: 3}
   QuestionBox: {fileID: 4141127085222181316, guid: 38d7a7e534db99a4eb2524c565ed67c3,
     type: 3}
   Stone: {fileID: 7303250169985485240, guid: 59132b71904244b44b1adeb1d4add181, type: 3}
+  Water: {fileID: 7316475146434834127, guid: 576d1ad0b514ca24fa3158ffe81709dc, type: 3}
+  Winner: {fileID: 4315426039377147756, guid: c5371b6541ba2f44b98ed44a11d73fb3, type: 3}
   parentTransform: {fileID: 992824850}
 --- !u!4 &406602702
 Transform:

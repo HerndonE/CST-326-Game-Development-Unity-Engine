@@ -15,6 +15,10 @@ public class LevelParserStarter : MonoBehaviour
 
     public GameObject Stone;
 
+    public GameObject Water;
+
+    public GameObject Winner;
+
     public Transform parentTransform;
     // Start is called before the first frame update
     void Start()
@@ -52,24 +56,21 @@ public class LevelParserStarter : MonoBehaviour
     private void SpawnPrefab(char spot, Vector3 positionToSpawn)
     {
         GameObject ToSpawn;
-        bool qb = false;
-
+       
         switch (spot)
         {
             case 'b': ToSpawn = Brick; break;
             case '?': ToSpawn = QuestionBox; break;
             case 'x': ToSpawn = Rock; break;
             case 's': ToSpawn = Stone; break;
+            case 'w': ToSpawn = Water; break;
+            case 'o': ToSpawn = Winner; break;
             //default: Debug.Log("Default Entered"); break;
             default: return;
                 //ToSpawn = //Brick;       break;
         }
 
         ToSpawn = GameObject.Instantiate(ToSpawn, parentTransform);
-        if (qb == true)
-        {
-            positionToSpawn.z = -1f;
-        }
         ToSpawn.transform.localPosition = positionToSpawn;
 
       

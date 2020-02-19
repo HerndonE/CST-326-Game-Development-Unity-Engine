@@ -24,13 +24,10 @@ public class CubeDestroyer : MonoBehaviour
                 if(boxCollider.tag != null)
                 {
                     Destroy(boxCollider.gameObject);
-                    points = points + 10;
+                    points = points + 100;
                     //scoreText.text = "" + points;
                     scoreText.text = "0000" + points;
-                    if (points >= 10)
-                    {
-                        scoreText.text = "000" + points;
-                    }
+                   
                     if (points >= 99)
                     {
                        
@@ -41,7 +38,7 @@ public class CubeDestroyer : MonoBehaviour
                 {
                     Destroy(boxCollider.gameObject);
                     //Debug.Log("We heed your call");
-                    coinPoints = coinPoints + 1;
+                    coinPoints = coinPoints + 100;
                     coinText.text = "Coins x " + coinPoints;
                 }
                    
