@@ -19,11 +19,15 @@ public class LevelParserStarter : MonoBehaviour
 
     public GameObject Winner;
 
+    public GameObject Player;
+
     public Transform parentTransform;
     // Start is called before the first frame update
     void Start()
     {
         RefreshParse();
+        Player.SetActive(false);
+        
     }
 
 
@@ -65,6 +69,7 @@ public class LevelParserStarter : MonoBehaviour
             case 's': ToSpawn = Stone; break;
             case 'w': ToSpawn = Water; break;
             case 'o': ToSpawn = Winner; break;
+            //case 'p': ToSpawn = Player; break;
             //default: Debug.Log("Default Entered"); break;
             default: return;
                 //ToSpawn = //Brick;       break;
@@ -72,8 +77,8 @@ public class LevelParserStarter : MonoBehaviour
 
         ToSpawn = GameObject.Instantiate(ToSpawn, parentTransform);
         ToSpawn.transform.localPosition = positionToSpawn;
+        Player.SetActive(true);
 
-      
     }
 
     public void RefreshParse()
@@ -87,5 +92,6 @@ public class LevelParserStarter : MonoBehaviour
 
         parentTransform = newParent.transform;
         FileParser();
+        Player.SetActive(true);
     }
 }
