@@ -11,6 +11,7 @@ public class AnimationInputController : MonoBehaviour
     public Rigidbody rb;
     public float speed = 3;
     public float jump = 5;
+    public float turbo = 0;
     public bool onGround = false;
     private float lastYFrame = 0;
 
@@ -42,12 +43,13 @@ public class AnimationInputController : MonoBehaviour
             rb.velocity = Vector3.up * jump;
         }
 
+    
         if (forwardMovement != 0)
         {
             float y = (forwardMovement < 0) ? -90 : 90;
             Vector3 input = new Vector3(0, y, 0);
             characterTransform.eulerAngles = input;
-            rb.velocity = new Vector3(speed * forwardMovement, rb.velocity.y, rb.velocity.z);
+            rb.velocity = new Vector3(speed  * forwardMovement, rb.velocity.y, rb.velocity.z);
         }
 
         else

@@ -12,8 +12,8 @@ public class Player1 : MonoBehaviour
     public int points = 0;
     public int coinPoints = 0;
 
-    private GameObject coinBox;
-    private GameObject brickBox;
+    public AudioClip otherClip;
+   
 
 
     void OnCollisionEnter(Collision collision)
@@ -41,9 +41,27 @@ public class Player1 : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Debug.Log("We heed your call");
-            coinPoints = coinPoints + 100;
-            coinText.text = "Coins x " + coinPoints;
+            coinPoints = coinPoints + 1;
+            coinText.text = "x " + coinPoints;
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.clip = otherClip;
+            audio.Play();
+            
+
         }
+
+        if (collision.gameObject.name == "Water(Clone)")
+        {
+            Destroy(GameObject.Find("Ethan"));
+        }
+
+        if (collision.gameObject.name == "Winner(Clone)")
+        {
+            Debug.Log("You Won!");
+        }
+
+      
+
     }
 
 
