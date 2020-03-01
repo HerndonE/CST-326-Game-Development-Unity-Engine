@@ -176,8 +176,8 @@ MonoBehaviour:
   speed: 5
   tilt: 0
   boundary:
-    xMin: -5
-    xMax: 10
+    xMin: -7
+    xMax: 15
     zMin: 0
     zMax: 4
   rb: {fileID: 54582774099472344}

@@ -828,7 +828,7 @@ PrefabInstance:
     - target: {fileID: 7450739420799803667, guid: 447963fd7657deb47be47ac12da38f05,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -5.630005
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 7450739420873044720, guid: 447963fd7657deb47be47ac12da38f05,
         type: 3}
@@ -1131,6 +1131,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351377057534001249, guid: 9088200559afa6b45b15eff5eefd3a50,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6351377057747245988, guid: 9088200559afa6b45b15eff5eefd3a50,
         type: 3}
