@@ -7,6 +7,11 @@ public class AddScore : MonoBehaviour {
     public int ScoreCount = 10;
     public bool isExploded = true;
     public GameObject explosion;
+  
+    void Start()
+    {
+       
+    }
     void OnDestroy () {
             //Debug.Log("Not Alive");
 

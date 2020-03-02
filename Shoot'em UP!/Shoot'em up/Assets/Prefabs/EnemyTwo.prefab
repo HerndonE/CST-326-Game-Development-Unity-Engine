@@ -190,6 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectName: Player
+  otherClip: {fileID: 8300000, guid: cea6f68d3456c024aa6cc81acfba7c42, type: 3}
 --- !u!114 &114000011094043256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 8
+  otherClip: {fileID: 8300000, guid: cea6f68d3456c024aa6cc81acfba7c42, type: 3}
 --- !u!114 &114000012601116932
 MonoBehaviour:
   m_ObjectHideFlags: 0

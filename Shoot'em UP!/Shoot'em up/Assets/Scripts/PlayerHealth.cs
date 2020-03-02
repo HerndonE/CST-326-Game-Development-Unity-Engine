@@ -14,6 +14,7 @@ public class PlayerHealth : MonoBehaviour {
     public Text YouLost;
     public bool takeDamage;
     public float delay = 1.0f;
+   
 
     void Awake()
     {
@@ -57,10 +58,9 @@ public class PlayerHealth : MonoBehaviour {
                         {
                         //Destroy(col.gameObject);
                         gameObject.SetActive(false); //works
-                  
                     //Destroy(gameObject); //Even better
                     //YouLost.text = "You Lost!";
-                            takeDamage = false;
+                    takeDamage = false;
                                 foreach (GameObject _obj in spawn)
                                 {
                                      _obj.SetActive(false);
