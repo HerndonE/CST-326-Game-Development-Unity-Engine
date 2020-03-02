@@ -1,6 +1,6 @@
-##CST 326 Game Development Using Unity    
+## CST 326 Game Development Using Unity    
 
-##Assignment Executable Download links    
+## Assignment Executable Download links    
 
 1. Assignment 1: [3D Pong](https://drive.google.com/uc?export=download&id=1ULhGkiw_VijsMc7Uod9Cjp9-Srj9oLsc )    
 Controls     
