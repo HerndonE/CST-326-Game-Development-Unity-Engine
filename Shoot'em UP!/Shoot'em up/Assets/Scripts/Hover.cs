@@ -33,24 +33,6 @@ public class Hover : MonoBehaviour
         transform.rotation = Quaternion.Euler(0.0f, 0.0f, rb.velocity.x * -tilt);
     }
 
-    /*
-        public float speed = 3f;
-        public Boundary boundary;
-        void Update()
-        {
 
-            if (Input.GetKey ("a")) {
-                transform.Translate (Vector3.left * speed * Time.deltaTime);
-            }
-            if (Input.GetKey("d"))
-            {
-                transform.Translate(Vector3.right * speed * Time.deltaTime);
-
-            }
-
-        }
-
-        /*
-        */
 }
 

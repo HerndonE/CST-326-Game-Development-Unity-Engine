@@ -9,6 +9,4 @@ public class DestroyAfterDelay : MonoBehaviour {
 		GameObject.Destroy (gameObject, delay);
 	}
 
-  
-
 }

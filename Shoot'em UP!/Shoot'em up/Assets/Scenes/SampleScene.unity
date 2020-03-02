@@ -248,9 +248,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherClip: {fileID: 8300000, guid: ba305da4a7a187d4f8e3f177e8df811b, type: 3}
-  otherClipTwo: {fileID: 8300000, guid: 36b16062a5709a046a0cdc3e07f9bd55, type: 3}
   isOn: 0
-  isOnEnemy: 1
+  foo: {fileID: 0}
 --- !u!82 &171553782
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1144,6 +1143,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 376.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7450739421713568950, guid: 447963fd7657deb47be47ac12da38f05,
+        type: 3}
+      propertyPath: m_Text
+      value: '0000
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 7450739421713568951, guid: 447963fd7657deb47be47ac12da38f05,
         type: 3}

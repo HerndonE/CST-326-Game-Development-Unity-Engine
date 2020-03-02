@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b27664cbf0bd804faadd97b2d5de109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  delay: 0
+  prefab: {fileID: 1000013094107250, guid: 0410602e319c1784f82ee1dc08d1b8bf, type: 3}
+  delay: 1
   Shoot: 0
 --- !u!1 &1438064262282630
 GameObject:
@@ -203,9 +203,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4431799959606862, guid: 188a044c881d8c04db5609a15d71cfb8, type: 3}
-  moveSpeed: 5
+  moveSpeed: 10
   rotationSpeed: 0
-  maxdistance: 10
+  maxdistance: 18
   shootPoints:
   - {fileID: 1415100912423920}
   - {fileID: 1613455518517942}
@@ -253,6 +253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b27664cbf0bd804faadd97b2d5de109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  delay: 0
+  prefab: {fileID: 1000013094107250, guid: 0410602e319c1784f82ee1dc08d1b8bf, type: 3}
+  delay: 1
   Shoot: 0

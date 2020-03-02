@@ -32,10 +32,7 @@ public class RevivePlayer : MonoBehaviour {
 
     void Start()
     {
-
-
         transform.position = new Vector3(5.0f, 0.0f, 0.0f);
-
         Debug.Log("Player 1 alive");
         //player2.SetActive(false);
         player1 = Instantiate(player1, transform.position, transform.rotation);

@@ -179,7 +179,6 @@ MonoBehaviour:
   ScoreCount: 10
   isExploded: 1
   explosion: {fileID: 1413640433465222, guid: c8845c7e733587647b7df157e86e5338, type: 3}
-  otherClip: {fileID: 8300000, guid: edae8a199c1540e4ab11086d1d18915d, type: 3}
 --- !u!114 &114000011879497404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +207,7 @@ MonoBehaviour:
   target: {fileID: 4431799959606862, guid: 188a044c881d8c04db5609a15d71cfb8, type: 3}
   moveSpeed: 5
   rotationSpeed: 0
-  maxdistance: 10
+  maxdistance: 12
   shootPoints:
   - {fileID: 1000011587807958}
   - {fileID: 1000013353911776}

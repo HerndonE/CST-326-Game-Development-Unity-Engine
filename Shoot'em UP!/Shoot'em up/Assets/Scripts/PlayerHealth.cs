@@ -48,7 +48,7 @@ public class PlayerHealth : MonoBehaviour {
                         healthbar.color = Color.yellow;
                         }
 
-                if (maxHealth == 20)
+                        if (maxHealth == 20)
                         {
                          //text.color = Color.red;
                          healthbar.color = Color.red;
