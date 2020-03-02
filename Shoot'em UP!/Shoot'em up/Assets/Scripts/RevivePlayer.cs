@@ -30,16 +30,24 @@ public class RevivePlayer : MonoBehaviour {
     public GameObject explosion2;
     public GameObject explosion3;
 
+    public Text highScoreText;
+
     void Start()
     {
         transform.position = new Vector3(5.0f, 0.0f, 0.0f);
         Debug.Log("Player 1 alive");
         //player2.SetActive(false);
         player1 = Instantiate(player1, transform.position, transform.rotation);
+
+        highScoreText = GetComponent<Text>();
+        highScoreText = GameObject.Find("HighScore").GetComponent<Text>();
+
+        highScoreText.text = "HS: " + ScoreManager.score;
+
     }
 
 
-    IEnumerator Build(float delay)
+IEnumerator Build(float delay)
     {
         yield return new WaitForSeconds(delay);
         if (!created1)
@@ -77,6 +85,8 @@ public class RevivePlayer : MonoBehaviour {
             currentLife = currentLife - 1;
             player1Image.enabled = false;
             Debug.Log(currentLife);
+            highScoreText.text = "HS: " + ScoreManager.score;
+            ScoreManager.score = 0;
             StartCoroutine(Build(delay));
 
            
@@ -93,6 +103,8 @@ public class RevivePlayer : MonoBehaviour {
             currentLife = currentLife - 1;
             player2Image.enabled = false;
             Debug.Log(currentLife);
+            highScoreText.text = "HS: " + ScoreManager.score;
+            ScoreManager.score = 0;
             StartCoroutine(Build2(delay));          
         }
 
@@ -109,6 +121,8 @@ public class RevivePlayer : MonoBehaviour {
             currentLife = currentLife - 1;
             player3Image.enabled = false;
             Debug.Log(currentLife);
+            highScoreText.text = "HS: " + ScoreManager.score;
+            ScoreManager.score = 0;
             //StartCoroutine(Build2(delay));
         }
         // Debug.Log(player1.activeSelf);

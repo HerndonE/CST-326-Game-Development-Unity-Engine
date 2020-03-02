@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AddScore
+    - Barrier
     - DeactivateAfterDeath
     - DeathOnImpact
     - DestroyAfterDelay
@@ -99,37 +100,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 11888}
+      Script: {instanceID: 11848}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11890}
     - Class: 114
-      Script: {instanceID: 11996}
+      Script: {instanceID: 11990}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 11998}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12456}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12482}
+      Script: {instanceID: 12458}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 12484}
     - Class: 114
-      Script: {instanceID: 12554}
+      Script: {instanceID: 12490}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12556}
     - Class: 114
-      Script: {instanceID: 12642}
+      Script: {instanceID: 12580}
     - Class: 114
-      Script: {instanceID: 12648}
+      Script: {instanceID: 12644}
     - Class: 114
-      Script: {instanceID: 12792}
+      Script: {instanceID: 12650}
     - Class: 114
-      Script: {instanceID: 12876}
+      Script: {instanceID: 12794}
     - Class: 114
-      Script: {instanceID: 12944}
+      Script: {instanceID: 12878}
     - Class: 114
-      Script: {instanceID: 13010}
+      Script: {instanceID: 12946}
+    - Class: 114
+      Script: {instanceID: 13012}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -383,7 +386,7 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: ad39de1092a706c82def0659a1cb77a4
+      Hash: 303730b860642b04803a90ab594ce080
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RevivePlayer
@@ -423,6 +426,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScoreManager
+  - hash:
+      serializedVersion: 2
+      Hash: 75ca3fa583dc4090bc08a521ff5f1d23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Barrier
   - hash:
       serializedVersion: 2
       Hash: c6b6917eeb1445a0d03c738c4e7f2e83
@@ -816,4 +825,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/HerndonE/Desktop/SpaceGame/Shoot'em up.exe
+  playerPath: C:/Users/HerndonE/Documents/CSUMB/CST 326 Spring 2020/CST-326-Game-Development-Unity-Engine/Executables/SpaceGame/Shoot'em
+    up.exe

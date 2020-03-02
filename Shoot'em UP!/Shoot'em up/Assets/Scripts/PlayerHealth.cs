@@ -56,6 +56,7 @@ public class PlayerHealth : MonoBehaviour {
 
                         if (maxHealth == 0)//problem
                         {
+                      
                         //Destroy(col.gameObject);
                         gameObject.SetActive(false); //works
                     //Destroy(gameObject); //Even better

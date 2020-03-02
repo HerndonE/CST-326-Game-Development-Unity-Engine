@@ -1170,7 +1170,7 @@ PrefabInstance:
     - target: {fileID: 6326279381169429818, guid: dd713b4934f42fd4d8fc4f32cb9fde4a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 155
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6326279381169429818, guid: dd713b4934f42fd4d8fc4f32cb9fde4a,
         type: 3}
@@ -1609,7 +1609,7 @@ MonoBehaviour:
   animator: {fileID: 1367557300}
   characterTransform: {fileID: 1367557301}
   rb: {fileID: 1367557299}
-  speed: 10
+  speed: 15
   jump: 8
   turbo: 15
   onGround: 0
