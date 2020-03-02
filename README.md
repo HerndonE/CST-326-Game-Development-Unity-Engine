@@ -14,7 +14,7 @@ Controls
 Bug: Runner will slide off (will fix later)
 	
 3. Assignment 3: [Shoot'em Up!](https://drive.google.com/uc?export=download&id=1lynKmb-JEHyjtlRZ5WRZdyXl7UcTU5IC)    
-Controls:
+Controls:    
 	Player 1: WASD to move     
 	Left click to fire     
 	Right click to fire rocket  
