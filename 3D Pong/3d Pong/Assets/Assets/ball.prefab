@@ -18,7 +18,8 @@ GameObject:
   - component: {fileID: 7282941249623691233}
   - component: {fileID: 7282941249623691237}
   - component: {fileID: 6937155457614337311}
-  m_Layer: 0
+  - component: {fileID: -3659121657781279890}
+  m_Layer: 8
   m_Name: ball
   m_TagString: ball
   m_Icon: {fileID: 0}
@@ -129,7 +130,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: ScoreBoundary
   text: {fileID: 0}
-  otherClip: {fileID: 8300000, guid: ba305da4a7a187d4f8e3f177e8df811b, type: 3}
 --- !u!114 &7282941249623691234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,7 +144,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: ScoreBoundary1
   text: {fileID: 0}
-  otherClip: {fileID: 8300000, guid: ba305da4a7a187d4f8e3f177e8df811b, type: 3}
 --- !u!114 &7282941249623691233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97903513b7b1a8a4cb561dcfa5227cf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sx: 0
+  sy: 0
 --- !u!82 &6937155457614337311
 AudioSource:
   m_ObjectHideFlags: 0
@@ -267,3 +268,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-3659121657781279890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282941249623691258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69628f5fce61f184a8050ff88c90fdad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignore1: 9
+  ignore2: 10

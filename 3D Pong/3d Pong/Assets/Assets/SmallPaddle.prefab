@@ -17,7 +17,8 @@ GameObject:
   - component: {fileID: 3019749236232376801}
   - component: {fileID: 5680331411896292434}
   - component: {fileID: 8286577935665310563}
-  m_Layer: 0
+  - component: {fileID: 1987940139102652972}
+  m_Layer: 10
   m_Name: SmallPaddle
   m_TagString: SmallPaddle
   m_Icon: {fileID: 0}
@@ -126,6 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97903513b7b1a8a4cb561dcfa5227cf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sx: 0
+  sy: 0
 --- !u!82 &3019749236232376801
 AudioSource:
   m_ObjectHideFlags: 0
@@ -237,8 +240,6 @@ MonoBehaviour:
   objectName: ScoreBoundary
   objectName1: ScoreBoundary1
   objectName2: player
-  playerA: {fileID: 0}
-  playerB: {fileID: 0}
   otherClip: {fileID: 8300000, guid: a37b1237728b8ae4e8a09ef13255bf14, type: 3}
 --- !u!114 &8286577935665310563
 MonoBehaviour:
@@ -253,3 +254,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.01
+--- !u!114 &1987940139102652972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3224511048387955460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69628f5fce61f184a8050ff88c90fdad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignore1: 8
+  ignore2: 9

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/3D Pong Lab, Part 1.unity
+- path: Assets/Scenes/pongScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
