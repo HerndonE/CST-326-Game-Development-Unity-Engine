@@ -6,13 +6,20 @@ public class EnemyShoot : MonoBehaviour {
 
     public GameObject prefab;
     public float delay = 0.0f;
-   public bool Shoot = false;
+    public bool Shoot = false;
+    public Animator playerAnimator;
+    void Start()
+    {
+        playerAnimator = GetComponent<Animator>();
+    }
     void Update()
     {
+        
         if (Shoot == false)
         {
             StartCoroutine(Build(delay));
             Shoot = true;
+            playerAnimator.SetTrigger("shootE");
         }
     }
     IEnumerator Build(float delay)

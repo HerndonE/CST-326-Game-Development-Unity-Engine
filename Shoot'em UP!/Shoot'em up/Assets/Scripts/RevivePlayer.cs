@@ -32,6 +32,9 @@ public class RevivePlayer : MonoBehaviour {
     public GameObject explosion3;
 
     public Text highScoreText;
+    public static float highScore1;
+    public static float highScore2;
+    public static float highScore3;
     public float secToCredits = 3f;
     void Start()
     {
@@ -93,6 +96,7 @@ public class RevivePlayer : MonoBehaviour {
             player1Image.enabled = false;
             Debug.Log(currentLife);
             highScoreText.text = "HS: " + ScoreManager.score;
+            highScore1 = ScoreManager.score;
             ScoreManager.score = 0;
             StartCoroutine(Build(delay));
 
@@ -111,6 +115,13 @@ public class RevivePlayer : MonoBehaviour {
             player2Image.enabled = false;
             Debug.Log(currentLife);
             highScoreText.text = "HS: " + ScoreManager.score;
+            if (ScoreManager.score > highScore1)
+            {
+                highScore2 = ScoreManager.score;
+            }
+            else
+                highScore1 = ScoreManager.score;
+           
             ScoreManager.score = 0;
             StartCoroutine(Build2(delay));          
         }
@@ -122,7 +133,12 @@ public class RevivePlayer : MonoBehaviour {
                 explosion3 = Instantiate(explosion3, player3.transform.position, transform.rotation);
 
             }
-
+            if (ScoreManager.score > highScore2 || ScoreManager.score > highScore1)
+            {
+                highScore3 = ScoreManager.score;
+            }
+            else
+                highScore2 = ScoreManager.score;
 
             Debug.Log("Game Over");
             currentLife = currentLife - 1;

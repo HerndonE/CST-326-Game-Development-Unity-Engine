@@ -8,6 +8,5 @@ public class PlayMovietexture : MonoBehaviour {
 
         //(GetComponent<RawImage>().mainTexture as MovieTexture).Play();
 	
-	
 	}
 }

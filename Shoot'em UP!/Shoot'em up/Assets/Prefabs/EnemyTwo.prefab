@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000010939416164}
   - component: {fileID: 114000010508205466}
+  - component: {fileID: 9054125369994708204}
   m_Layer: 0
   m_Name: ShootPoint
   m_TagString: Untagged
@@ -46,6 +47,27 @@ MonoBehaviour:
   prefab: {fileID: 1000013094107250, guid: 0410602e319c1784f82ee1dc08d1b8bf, type: 3}
   delay: 1
   Shoot: 0
+  playerAnimator: {fileID: 6375445138717881673, guid: c826782e9a876f44e813a94d9ffb134e,
+    type: 3}
+--- !u!95 &9054125369994708204
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011997270650}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1000012590257564
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +212,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectName: Player
-  otherClip: {fileID: 8300000, guid: cea6f68d3456c024aa6cc81acfba7c42, type: 3}
 --- !u!114 &114000011094043256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 8
-  otherClip: {fileID: 8300000, guid: cea6f68d3456c024aa6cc81acfba7c42, type: 3}
 --- !u!114 &114000012601116932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000013320902222}
   - component: {fileID: 114000011989024864}
+  - component: {fileID: 6373686222988443407}
   m_Layer: 0
   m_Name: ShootPoint
   m_TagString: Untagged
@@ -271,3 +292,24 @@ MonoBehaviour:
   prefab: {fileID: 1000013094107250, guid: 0410602e319c1784f82ee1dc08d1b8bf, type: 3}
   delay: 1
   Shoot: 0
+  playerAnimator: {fileID: 6375445138717881673, guid: c826782e9a876f44e813a94d9ffb134e,
+    type: 3}
+--- !u!95 &6373686222988443407
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013126836792}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
