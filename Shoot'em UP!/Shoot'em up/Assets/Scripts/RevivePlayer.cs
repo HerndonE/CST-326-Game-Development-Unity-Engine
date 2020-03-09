@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using System;
 
@@ -31,7 +32,7 @@ public class RevivePlayer : MonoBehaviour {
     public GameObject explosion3;
 
     public Text highScoreText;
-
+    public float secToCredits = 3f;
     void Start()
     {
         transform.position = new Vector3(5.0f, 0.0f, 0.0f);
@@ -47,7 +48,7 @@ public class RevivePlayer : MonoBehaviour {
     }
 
 
-IEnumerator Build(float delay)
+    IEnumerator Build(float delay)
     {
         yield return new WaitForSeconds(delay);
         if (!created1)
@@ -68,6 +69,12 @@ IEnumerator Build(float delay)
             created2 = true;
             isExploded = false;
         }
+    }
+
+    IEnumerator credits(float secToCredits)
+    {
+        yield return new WaitForSeconds(secToCredits);
+        SceneManager.LoadScene("Credit 3d");
     }
 
 
@@ -123,6 +130,8 @@ IEnumerator Build(float delay)
             Debug.Log(currentLife);
             highScoreText.text = "HS: " + ScoreManager.score;
             ScoreManager.score = 0;
+
+            StartCoroutine(credits(secToCredits));
             //StartCoroutine(Build2(delay));
         }
         // Debug.Log(player1.activeSelf);

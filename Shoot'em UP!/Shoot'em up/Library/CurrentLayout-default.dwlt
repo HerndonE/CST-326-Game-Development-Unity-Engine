@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 68
+  controlID: 121
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 430
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 73
+  controlID: 122
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 74
+  controlID: 123
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,10 +294,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 327
-    y: 81
-    width: 955
-    height: 494
+    x: 255
+    y: 73
+    width: 1233
+    height: 618
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -338,21 +338,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\HerndonE\Documents\CSUMB\CST 326 Spring 2020\CST-326-Game-Development-Unity-Engine\Shoot'em
     UP!\Shoot'em up
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 19}
-    m_SelectedIDs: ec370000
-    m_LastClickedID: 14316
-    m_ExpandedIDs: 00000000c0370000c2370000c4370000c6370000c8370000ca370000cc37000000ca9a3b
+    scrollPos: {x: 0, y: 89}
+    m_SelectedIDs: 3c370000
+    m_LastClickedID: 14140
+    m_ExpandedIDs: 00000000023700000437000006370000083700000a3700000c3700000e37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -380,7 +380,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c0370000c2370000c4370000c6370000c8370000ca370000cc370000
+    m_ExpandedIDs: 00000000023700000437000006370000083700000a3700000c3700000e370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -473,7 +473,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 900
+  m_LastVerticalScrollValue: 0
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -505,7 +505,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6ebdffffe2beffff72fbffff
+      m_ExpandedIDs: 2ad4feff48d4feff1ad5feffa6d7feff7ed8feff0adbfeffa0e2feffaae2feffb8e2feff94e3feff9ce6feffaaedfeffc8edfeff22f1fefffaf1fefffef1feff6cf5feff54f6feffecf8feffa6fcfeff9203ffffbc05ffffc605ffffe605ffff1208ffff940bffff9e0bffffd80bffff040effffbc0fffffe811ffff8214ffff343fffff6e3fffff1040ffff1a40ffff5640ffff5c40ffff8842ffff724effffec54fffff654ffff2ebcffff38bcffff7abdffffb4bdffffe6c1ffff20deffff36efffff5af2ffff7cf2ffff4ef3ffff2af4ffffb6f6ffffbafaffffc8faffff72fbffffec3400002035000054350000c4520000f85200002c5300002c6500001a76000034770000607700000c870000ee8900008e91000020a7000050a7000088a7000076b200009ab200002eb30000d0b300008ec50000c0c50000f6c500001ae10000c6e1000024e20000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -565,9 +565,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 119.624176, y: -54.360615, z: 53.319855}
+    m_Target: {x: 50.53003, y: -39.667572, z: -1.5390021}
     speed: 2
-    m_Value: {x: 119.624176, y: -54.360615, z: 53.319855}
+    m_Value: {x: 50.53003, y: -39.667572, z: -1.5390021}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -613,13 +613,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.18078166, y: -0.5656772, z: 0.12875624, w: -0.7942055}
+    m_Target: {x: -0.366386, y: -0.5988374, z: 0.35555455, w: -0.61706924}
     speed: 2
-    m_Value: {x: -0.18097338, y: -0.56448156, z: 0.12848406, w: -0.7950478}
+    m_Value: {x: -0.36637896, y: -0.5988259, z: 0.35554773, w: -0.6170574}
   m_Size:
-    m_Target: 132.36641
+    m_Target: 84.76073
     speed: 2
-    m_Value: 132.36641
+    m_Value: 84.76073
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -702,7 +702,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

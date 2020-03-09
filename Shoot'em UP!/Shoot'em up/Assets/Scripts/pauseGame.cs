@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class pauseGame : MonoBehaviour {
@@ -18,6 +19,13 @@ public class pauseGame : MonoBehaviour {
 
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Time.timeScale = 1;
+            SceneManager.LoadScene("Pause 3d");
+        }
+
        
         if (Input.GetKeyDown("escape"))
         {
@@ -33,7 +41,7 @@ public class pauseGame : MonoBehaviour {
                 GameObject.Find("ObjectShoot").GetComponent<RocketCooldown>().enabled = false;
                 GameObject.FindWithTag("Player").GetComponent<leftnRight>().enabled = false;
                 Pause = true;
-                pauseImage.enabled = true;               
+                pauseImage.enabled = true;
                 Debug.Log("Pause Game!");
             }
         }
@@ -41,9 +49,10 @@ public class pauseGame : MonoBehaviour {
         if (Pause == false)
         {
             Time.timeScale = 1;
-           // GameObject.Find("ObjectShoot").GetComponent<InstantiatePrefabOnButton>().enabled = true;
-           // GameObject.Find("ObjectShoot").GetComponent<RocketCooldown>().enabled = true;
-           // GameObject.FindWithTag("Player").GetComponent<leftnRight>().enabled = true;
+            gameObject.transform.position = new Vector3(0.0f, 23.2f, 11.5f);
+            // GameObject.Find("ObjectShoot").GetComponent<InstantiatePrefabOnButton>().enabled = true;
+            // GameObject.Find("ObjectShoot").GetComponent<RocketCooldown>().enabled = true;
+            // GameObject.FindWithTag("Player").GetComponent<leftnRight>().enabled = true;
             Pause = false;
             pauseImage.enabled = false;     
          }
