@@ -1,20 +1,20 @@
 ## CST 326 Game Development Using Unity    
 
-## Assignment Executable Download links    
+## Assignment "How to Play"    
 
-1. Assignment 1: [3D Pong](https://drive.google.com/uc?export=download&id=1ULhGkiw_VijsMc7Uod9Cjp9-Srj9oLsc )    
+1. Assignment 1: 3D Pong       
 Controls     
 	Blue Paddle: "w" and "s"    
 	Red Paddle: "j" and "l"    
 	Restart Game: "r"    
 	
-2. Assignment 2: [Mario Platformer](https://drive.google.com/uc?export=download&id=1H3DgAfu1hVrZC6_qoDAxzl7voMK74dL8)     
+2. Assignment 2: Mario Platformer        
 Controls
 	"a" and "d" to move    
 	"spacebar" to jump    
 	Restart Game: "r"    
 	
-3. Assignment 3: [Shoot'em Up!](https://drive.google.com/uc?export=download&id=1lynKmb-JEHyjtlRZ5WRZdyXl7UcTU5IC)    
+3. Assignment 3: Shoot'em Up!    
 Controls:    
 	Player 1: WASD to move     
 	Left click to fire     
