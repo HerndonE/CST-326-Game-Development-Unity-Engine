@@ -1,6 +1,8 @@
 ## CST 326 Game Development Using Unity    
 
-## Assignment "How to Play"    
+## Using version 2019.3.0f
+
+## Assignments "How to Play"    
 
 1. Assignment 1: 3D Pong       
 Controls     
@@ -19,3 +21,8 @@ Controls:
 	Player 1: WASD to move     
 	Left click to fire     
 	Right click to fire rocket  
+
+4. Assignment 4: Tower Defense     
+Controls:
+	Right click to fire at enemies
+	Cost 6 coins to deploy a turret

@@ -33,19 +33,22 @@ public class EnemyHealth : MonoBehaviour
                 {
                     BoxCollider boxCollider = hit.collider as BoxCollider;
                 
-                    if (boxCollider.gameObject.name == "Cube")
+                if (boxCollider.gameObject.name == "Cube")
                     {
                        //Destroy(boxCollider.gameObject);
                         Debug.Log("We heed your call");
                     boxCollider.gameObject.GetComponent<HealthCare>().health--;
 
+                    //boxCollider.gameObject.GetComponent<HealthCare>().Bar.fillAmount = gameObject.GetComponent<HealthCare>().health / gameObject.GetComponent<HealthCare>().startHealth;
+                    
                     if (boxCollider.gameObject.GetComponent<HealthCare>().health > 0)
                     {
                         points++;
                         scoreText.text = "Score:" + points;
-
+                        
                         cointPoints++;
                         coinText.text = "Coins:" + cointPoints;
+                        //Debug.Log(cointPoints);
                     }
                     
                  
