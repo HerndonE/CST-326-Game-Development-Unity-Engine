@@ -1,8 +1,0 @@
-Turrets by: Oleg Jaricov
-https://assetstore.unity.com/packages/3d/characters/robots/enemy-turrets-27858
-
-Turret Deployment by: Brackeys
-https://www.youtube.com/watch?v=t7GuWvP_IEQ&list=PLPV2KyIb3jR4u5jX8za5iU1cqnQPmbzG0&index=6
-
-Health Bar by:
-https://www.youtube.com/watch?v=xz4E1OnWHuk

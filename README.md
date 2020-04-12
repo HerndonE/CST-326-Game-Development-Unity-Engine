@@ -23,6 +23,5 @@ Controls:
 	Right click to fire rocket  
 
 4. Assignment 4: Tower Defense     
-Controls:
-	Right click to fire at enemies
-	Cost 6 coins to deploy a turret
+Controls:         
+	Cost 6 coins to deploy a turret     
