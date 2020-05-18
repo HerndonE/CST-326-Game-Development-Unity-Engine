@@ -70,7 +70,8 @@ Stretch goal background changes periodically with tower height (ground, clouds, 
 	"A" - Move left    
 	"D" - Move Right    
 	Cursor - Navigate around the game    
-3. [Google Play Store]()
+3. [Google Play Store](https://play.google.com/store/apps/details?id=com.EchoCharlieNovember.TowerTopper&hl=en_US)    
+4. [iOS Store]()    
 
 # Contributors
 Course: CST - 326    
